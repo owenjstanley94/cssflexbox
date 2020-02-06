@@ -8,6 +8,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     padding:15px;
+    width: 33.3333%;
 }
   
 /* Colours for each box */
@@ -25,12 +26,5 @@
 .container {
     display: flex;
     min-height: 100vh;
-    /*flex-direction: row;  /* left to roght in the row */
-
-    /* flex-direction: column;   /* top to bottom   */
-
-    /*  flex-direction: row-reverse;    /* 1 - 10 in reverse */
-
-    /*  flex-direction: column-reverse;   /*1-10 bottom to top */
-
+    flex-wrap: wrap;
 }
