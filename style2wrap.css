@@ -11,7 +11,13 @@
     width: 33.3333%;
 }
 
-
+.container {
+    display: flex;
+    max-height: 5ex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
 /* Colours for each box */
 .box1 { background:#eccc68;}
 .box2 { background:#ff6348;}
