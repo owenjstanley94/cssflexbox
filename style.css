@@ -6,7 +6,6 @@
     color: white;
     font-size: 100px;
     font-family: 'Montserrat Alternates', sans-serif;
-    text-align: center;
     padding:15px;
 }
 
@@ -25,5 +24,21 @@
 
 .container {
     height: 100vh;
+    border: 10px solid gold;
     display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
 }
+
+.box {
+    width: 33.3333%;
+}
+
+.box1 {
+    align-self: ;
+}
+.box2 {padding-bottom: 100px;}
+
+.box6 {padding-bottom: 0;}
+
+.box9 {padding-bottom: 50px;}
